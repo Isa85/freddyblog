@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :comments
+  resources :posts
   get 'simple_pages/about'
 
   get 'simple_pages/contact'
